@@ -30,7 +30,7 @@ int main()
 			double val = stod(op);
 			values[op] = val;
 		}
-		catch (...) {
+		catch (...) { // ловит любой тип
 			cout << "¬ведите значение " << op << ": ";
 			cin >> val;
 			values[op] = val;

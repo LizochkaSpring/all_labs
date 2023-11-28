@@ -9,7 +9,7 @@ protected:
     int size;
     int first;
 public:
-    MyStack(int _size = 1);
+    MyStack(int _size = 100);
     MyStack(const MyStack<T>& st);
     MyStack(MyStack<T>&& st);
     ~MyStack();
