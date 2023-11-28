@@ -1,0 +1,9 @@
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/gtest/CMakeFiles/gtest.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/stack/CMakeFiles/stack.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/stacklib/CMakeFiles/stacklib.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/stacktest/CMakeFiles/stacktest.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postf/CMakeFiles/postf.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postflib/CMakeFiles/postflib.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postftest/CMakeFiles/postftest.dir
