@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 22.11.2023 16:43:07.
+      Сборка начата 29.11.2023 1:27:44.
       
       Проект "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -51,7 +51,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:01.46
+      Прошло времени 00:00:01.15
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -77,7 +77,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 22.11.2023 16:43:09.
+      Сборка начата 29.11.2023 1:27:46.
       
       Проект "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -104,7 +104,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.92
+      Прошло времени 00:00:00.86
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,46 +123,46 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-6eklf7"
-      binary: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-6eklf7"
+      source: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-0ddqon"
+      binary: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-0ddqon"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-6eklf7'
+        Change Dir: 'C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-0ddqon'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26ebb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e24fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 22.11.2023 16:43:10.
+        Сборка начата 29.11.2023 1:27:47.
         
-        Проект "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6eklf7\\cmTC_26ebb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ddqon\\cmTC_e24fc.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_26ebb.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6eklf7\\Debug\\".
-          Создание каталога "cmTC_26ebb.dir\\Debug\\cmTC_26ebb.tlog\\".
+          Создание каталога "cmTC_e24fc.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ddqon\\Debug\\".
+          Создание каталога "cmTC_e24fc.dir\\Debug\\cmTC_e24fc.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_26ebb.dir\\Debug\\cmTC_26ebb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_e24fc.dir\\Debug\\cmTC_e24fc.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26ebb.dir\\Debug\\\\" /Fd"cmTC_26ebb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e24fc.dir\\Debug\\\\" /Fd"cmTC_e24fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
-          CMakeCCompilerABI.c
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26ebb.dir\\Debug\\\\" /Fd"cmTC_26ebb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e24fc.dir\\Debug\\\\" /Fd"cmTC_e24fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6eklf7\\Debug\\cmTC_26ebb.exe" /INCREMENTAL /ILK:"cmTC_26ebb.dir\\Debug\\cmTC_26ebb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-6eklf7/Debug/cmTC_26ebb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-6eklf7/Debug/cmTC_26ebb.lib" /MACHINE:X64  /machine:x64 cmTC_26ebb.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_26ebb.vcxproj -> C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6eklf7\\Debug\\cmTC_26ebb.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ddqon\\Debug\\cmTC_e24fc.exe" /INCREMENTAL /ILK:"cmTC_e24fc.dir\\Debug\\cmTC_e24fc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-0ddqon/Debug/cmTC_e24fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-0ddqon/Debug/cmTC_e24fc.lib" /MACHINE:X64  /machine:x64 cmTC_e24fc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e24fc.vcxproj -> C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ddqon\\Debug\\cmTC_e24fc.exe
         FinalizeBuildStatus:
-          Файл "cmTC_26ebb.dir\\Debug\\cmTC_26ebb.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_26ebb.dir\\Debug\\cmTC_26ebb.tlog\\cmTC_26ebb.lastbuildstate".
-        Сборка проекта "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6eklf7\\cmTC_26ebb.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_e24fc.dir\\Debug\\cmTC_e24fc.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e24fc.dir\\Debug\\cmTC_e24fc.tlog\\cmTC_e24fc.lastbuildstate".
+        Сборка проекта "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ddqon\\cmTC_e24fc.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.81
+        Прошло времени 00:00:00.83
         
       exitCode: 0
   -
@@ -174,46 +174,46 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-pe8k2e"
-      binary: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-pe8k2e"
+      source: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-c452c1"
+      binary: "C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-c452c1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-pe8k2e'
+        Change Dir: 'C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-c452c1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d46bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27f24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 22.11.2023 16:43:11.
+        Сборка начата 29.11.2023 1:27:48.
         
-        Проект "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe8k2e\\cmTC_d46bc.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c452c1\\cmTC_27f24.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_d46bc.dir\\Debug\\".
-          Создание каталога "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe8k2e\\Debug\\".
-          Создание каталога "cmTC_d46bc.dir\\Debug\\cmTC_d46bc.tlog\\".
+          Создание каталога "cmTC_27f24.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c452c1\\Debug\\".
+          Создание каталога "cmTC_27f24.dir\\Debug\\cmTC_27f24.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_d46bc.dir\\Debug\\cmTC_d46bc.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_27f24.dir\\Debug\\cmTC_27f24.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d46bc.dir\\Debug\\\\" /Fd"cmTC_d46bc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_27f24.dir\\Debug\\\\" /Fd"cmTC_27f24.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
           CMakeCXXCompilerABI.cpp
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d46bc.dir\\Debug\\\\" /Fd"cmTC_d46bc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_27f24.dir\\Debug\\\\" /Fd"cmTC_27f24.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe8k2e\\Debug\\cmTC_d46bc.exe" /INCREMENTAL /ILK:"cmTC_d46bc.dir\\Debug\\cmTC_d46bc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-pe8k2e/Debug/cmTC_d46bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-pe8k2e/Debug/cmTC_d46bc.lib" /MACHINE:X64  /machine:x64 cmTC_d46bc.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_d46bc.vcxproj -> C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe8k2e\\Debug\\cmTC_d46bc.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c452c1\\Debug\\cmTC_27f24.exe" /INCREMENTAL /ILK:"cmTC_27f24.dir\\Debug\\cmTC_27f24.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-c452c1/Debug/cmTC_27f24.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Xaker/source/repos/vse_labs/all_labs/build/CMakeFiles/CMakeScratch/TryCompile-c452c1/Debug/cmTC_27f24.lib" /MACHINE:X64  /machine:x64 cmTC_27f24.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_27f24.vcxproj -> C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c452c1\\Debug\\cmTC_27f24.exe
         FinalizeBuildStatus:
-          Файл "cmTC_d46bc.dir\\Debug\\cmTC_d46bc.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_d46bc.dir\\Debug\\cmTC_d46bc.tlog\\cmTC_d46bc.lastbuildstate".
-        Сборка проекта "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe8k2e\\cmTC_d46bc.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_27f24.dir\\Debug\\cmTC_27f24.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_27f24.dir\\Debug\\cmTC_27f24.tlog\\cmTC_27f24.lastbuildstate".
+        Сборка проекта "C:\\Users\\Xaker\\source\\repos\\vse_labs\\all_labs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c452c1\\cmTC_27f24.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.83
+        Прошло времени 00:00:00.82
         
       exitCode: 0
 ...

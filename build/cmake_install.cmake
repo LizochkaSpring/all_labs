@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postf/cmake_install.cmake")
   include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postflib/cmake_install.cmake")
   include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postftest/cmake_install.cmake")
+  include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/cmake_install.cmake")
 
 endif()
 

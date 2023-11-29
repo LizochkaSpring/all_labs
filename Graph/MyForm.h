@@ -41,6 +41,8 @@ namespace Graph {
 	private: System::Windows::Forms::TextBox^ textBox1;
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::Label^ label3;
+	private: System::Windows::Forms::Label^ label4;
 	protected:
 
 	private:
@@ -60,87 +62,122 @@ namespace Graph {
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(479, 110);
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->button1->Location = System::Drawing::Point(231, 40);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(159, 52);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"button1";
+			this->button1->Text = L"Посчитать";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(192, 110);
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->textBox1->Location = System::Drawing::Point(17, 51);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(198, 22);
+			this->textBox1->Size = System::Drawing::Size(198, 30);
 			this->textBox1->TabIndex = 1;
-			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(192, 47);
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label1->Location = System::Drawing::Point(96, 96);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(44, 16);
+			this->label1->Size = System::Drawing::Size(19, 29);
 			this->label1->TabIndex = 2;
-			this->label1->Text = L"label1";
-			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
+			this->label1->Text = L":";
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(237, 161);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label2->Location = System::Drawing::Point(236, 133);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(44, 16);
+			this->label2->Size = System::Drawing::Size(19, 29);
 			this->label2->TabIndex = 3;
-			this->label2->Text = L"label2";
-			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
+			this->label2->Text = L":";
+			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label3->Location = System::Drawing::Point(12, 99);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(72, 25);
+			this->label3->TabIndex = 4;
+			this->label3->Text = L"Ответ";
+			// 
+			// label4
+			// 
+			this->label4->AutoSize = true;
+			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label4->Location = System::Drawing::Point(12, 134);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(209, 25);
+			this->label4->TabIndex = 5;
+			this->label4->Text = L"Постфиксная запись";
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(734, 279);
+			this->ClientSize = System::Drawing::Size(730, 172);
+			this->Controls->Add(this->label4);
+			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->button1);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
-			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
-	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
-	}
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		//стандартная строка
 		std::string infix;
 		//конвертация строки String^ в std::string
 		infix = msclr::interop::marshal_as<std::string>(textBox1->Text);
-		//калькулятор
-		MyPostfix calc;
-		//запись выражения
-		calc.GetInfix();
-		//перевод в постфиксную запись
-		calc.GetPostfix();
-		//вывод выражения в постфиксной форме
-		label2->Text= msclr::interop::marshal_as<String^>(calc.GetPostfix());
+		MyPostfix temp(infix);
+		auto a = temp.GetPostfix();
+		string t;
+		for (auto b : a) {
+			t += b + " ";
+		}
+		label2->Text= msclr::interop::marshal_as<String^>(t);
+		vector<string> operands = temp.GetOperands();
+		map<string, double> values;
+		double val;
+		for (const auto& op : operands)
+		{
+			try {
+				double val = stod(op);
+				values[op] = val;
+			}
+			catch (...) { // ловит любой тип
+				cout << "Введите значение " << op << ": ";
+				cin >> val;
+				values[op] = val;
+			}
+		}
 		//вычисление и вывод на форму
-		//label1->Text = Convert::ToString(calc.Calculate());
-	}
-	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-
-	}
-	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+		label1->Text = Convert::ToString(temp.Calculate(values));
 	}
 };
 }

@@ -25,6 +25,7 @@ add_subdirectory(stack) #Добавляем директорию с под-CMake
 add_subdirectory(stacklib)
 add_subdirectory(stacktest)
 
+
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/postflib) #Добавляем директорию "${CMAKE_CURRENT_SOURCE_DIR}/postflib" в дополняемые каталоги включаемых файлов
 #${CMAKE_CURRENT_SOURCE_DIR} - стандартная переменная с адресом рабочей директории
 add_subdirectory(postf) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
@@ -40,3 +41,6 @@ add_subdirectory(postftest)
 
  #Собираем проект в поддиректории lib1
 #target_link_libraries(${PROJECT_NAME} ${MyLib1}) #Подключаем к проекту с именем ${PROJECT_NAME} библиотеку с именем ${MyLib1}
+
+
+add_subdirectory(Graph)
