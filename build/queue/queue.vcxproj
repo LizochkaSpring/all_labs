@@ -14,58 +14,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6DF302D3-22C3-3DB2-A4B6-60132CB9D9F2}</ProjectGuid>
+    <ProjectGuid>{45DC8361-B3DA-344B-97E8-8EFBDA3A23C3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Graph</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
-    <ProjectName>Graph</ProjectName>
+    <ProjectName>queue</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
-    <ManagedAssembly>true</ManagedAssembly>
-    <OutputType>WinExe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <DebugSymbols>true</DebugSymbols>
-    <DefineDebug>true</DefineDebug>
-    <OutputPath>C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\Debug\</OutputPath>
+    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
-    <AssemblyName>Graph</AssemblyName>
-    <StartAction>Program</StartAction>
-    <StartProgram>C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\Debug\Graph.exe</StartProgram>
-    <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-    <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-    <CompileAsManaged>true</CompileAsManaged>
-    <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-    <ExceptionHandling>Async</ExceptionHandling>
-    <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-    <Optimization>Disabled</Optimization>
-    <PrecompiledHeader>NotUsing</PrecompiledHeader>
-    <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-    <RuntimeTypeInfo>true</RuntimeTypeInfo>
-    <UseFullPaths>false</UseFullPaths>
-    <WarningLevel>Level3</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <OutputPath>C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\Release\</OutputPath>
+    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
-    <AssemblyName>Graph</AssemblyName>
-    <StartAction>Program</StartAction>
-    <StartProgram>C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\Release\Graph.exe</StartProgram>
-    <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-    <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-    <CompileAsManaged>true</CompileAsManaged>
-    <ExceptionHandling>Async</ExceptionHandling>
-    <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-    <Optimization>MaxSpeed</Optimization>
-    <PrecompiledHeader>NotUsing</PrecompiledHeader>
-    <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-    <RuntimeTypeInfo>true</RuntimeTypeInfo>
-    <UseFullPaths>false</UseFullPaths>
-    <WarningLevel>Level3</WarningLevel>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -76,15 +41,15 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Graph.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Graph</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\queue\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">queue.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">queue</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Graph.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Graph</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\queue\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">queue.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">queue</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
@@ -93,10 +58,9 @@
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Xaker\source\repos\vse_labs\all_labs\gtest;C:\Users\Xaker\source\repos\vse_labs\all_labs\stacklib;C:\Users\Xaker\source\repos\vse_labs\all_labs\postflib;C:\Users\Xaker\source\repos\vse_labs\all_labs\queuelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <CompileAsManaged>true</CompileAsManaged>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ExceptionHandling>Async</ExceptionHandling>
+      <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -120,15 +84,14 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\queuelib\Debug\queuelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <EntryPointSymbol>Main</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/Debug/Graph.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/Debug/Graph.pdb</ProgramDataBaseFile>
-      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/Debug/queue.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/Debug/queue.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -138,9 +101,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Xaker\source\repos\vse_labs\all_labs\gtest;C:\Users\Xaker\source\repos\vse_labs\all_labs\stacklib;C:\Users\Xaker\source\repos\vse_labs\all_labs\postflib;C:\Users\Xaker\source\repos\vse_labs\all_labs\queuelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <CompileAsManaged>true</CompileAsManaged>
-      <ExceptionHandling>Async</ExceptionHandling>
+      <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -166,26 +127,25 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\queuelib\Release\queuelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <EntryPointSymbol>Main</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/Release/Graph.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/Release/Graph.pdb</ProgramDataBaseFile>
-      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/Release/queue.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/Release/queue.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\Graph\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\queue\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Xaker/source/repos/vse_labs/all_labs/Graph/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Xaker/source/repos/vse_labs/all_labs/queue/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Xaker/source/repos/vse_labs/all_labs -BC:/Users/Xaker/source/repos/vse_labs/all_labs/build --check-stamp-file C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Xaker/source/repos/vse_labs/all_labs -BC:/Users/Xaker/source/repos/vse_labs/all_labs/build --check-stamp-file C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -194,11 +154,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\queue\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Xaker/source/repos/vse_labs/all_labs/Graph/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Xaker/source/repos/vse_labs/all_labs/queue/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Xaker/source/repos/vse_labs/all_labs -BC:/Users/Xaker/source/repos/vse_labs/all_labs/build --check-stamp-file C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Xaker/source/repos/vse_labs/all_labs -BC:/Users/Xaker/source/repos/vse_labs/all_labs/build --check-stamp-file C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -207,44 +167,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\Graph\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Xaker\source\repos\vse_labs\all_labs\build\queue\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\Graph\MyForm.cpp" />
-    <ClInclude Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\Graph\MyForm.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System">
-      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-    </Reference>
-    <Reference Include="System.Data">
-      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-    </Reference>
-    <Reference Include="System.Windows.Forms">
-      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-    </Reference>
-    <Reference Include="System.Xml">
-      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\Graph\MyForm.resx">
-      <DependentUpon>C:\Users\Xaker\source\repos\vse_labs\all_labs\Graph\MyForm.h</DependentUpon>
-      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(RootNamespace).%(Filename).resources</LogicalName>
-      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(RootNamespace).%(Filename).resources</LogicalName>
-    </EmbeddedResource>
+    <ClCompile Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\queue\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\build\ZERO_CHECK.vcxproj">
@@ -252,6 +180,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Xaker\source\repos\vse_labs\all_labs\build\queuelib\queuelib.vcxproj">
+      <Project>{4BBBB803-4A7C-31E5-A960-BC1140F22AE1}</Project>
+      <Name>queuelib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

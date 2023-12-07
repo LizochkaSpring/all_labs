@@ -11,6 +11,9 @@ set(postf postf) #Переменная с именем приложения
 set(postflib postflib) #Переменная с именем библиотеки
 set(postftest postftest)
 
+set(queue queue) #Переменная с именем приложения
+set(queuelib queuelib) #Переменная с именем библиотеки
+set(queuetest queuetest)
 
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Configs" FORCE) #Создается переменная CMAKE_CONFIGURATION_TYPES со значением "Debug;Release" и меткой/разделом Configs, переменная сохраниется в специальном файле доступном из всех файлов,
 if(NOT CMAKE_BUILD_TYPE) # проверка имеющихся у компилятора вариантов сборки
@@ -31,6 +34,13 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/postflib) #Добавляем д
 add_subdirectory(postf) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
 add_subdirectory(postflib)
 add_subdirectory(postftest)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/queuelib) #Добавляем директорию "${CMAKE_CURRENT_SOURCE_DIR}/postflib" в дополняемые каталоги включаемых файлов
+#${CMAKE_CURRENT_SOURCE_DIR} - стандартная переменная с адресом рабочей директории
+add_subdirectory(queue) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
+add_subdirectory(queuelib)
+add_subdirectory(queuetest)
+
 
 #file(GLOB hdrs "*.h*") #Добавляем в переменную hdrs все файлы с расширением .h
 #file(GLOB srcs "*.cpp") #Добавляем в переменную srcs все файлы с расширением .cpp

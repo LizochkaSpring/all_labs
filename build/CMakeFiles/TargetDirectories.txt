@@ -7,4 +7,7 @@ C:/Users/Xaker/source/repos/vse_labs/all_labs/build/stacktest/CMakeFiles/stackte
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postf/CMakeFiles/postf.dir
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postflib/CMakeFiles/postflib.dir
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/postftest/CMakeFiles/postftest.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/CMakeFiles/queue.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queuelib/CMakeFiles/queuelib.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queuetest/CMakeFiles/queuetest.dir
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/CMakeFiles/Graph.dir
