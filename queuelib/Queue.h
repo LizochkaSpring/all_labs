@@ -35,6 +35,7 @@ public:
 		begin = 0;
 		end = 0;
 		cnt = 0;
+		MaxSize = s;
 		pMem = new T[size];
 	}
 	

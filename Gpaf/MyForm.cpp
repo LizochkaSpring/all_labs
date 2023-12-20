@@ -10,6 +10,6 @@ void Main(cli::array<String^>^ args)
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	
-	Gpafqueue::MyForm form();
-	Application::Run(% form());
+	Gpafqueue::MyForm form;
+	Application::Run(% form);
 }
