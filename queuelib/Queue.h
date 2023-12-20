@@ -6,27 +6,29 @@ const int MinQueueSize = 1;
 
 
 template <class T>
-class Queue {
+class MyQueue {
+	int MaxSize; // - максимальный размер
 	int begin; // Ц индекс элемента массива, в котором хранитс€ первый элемент очереди
 	int end; // - индекс элемента массива, в котором хранитс€ последний элемент очереди
 	size_t size; // Ц размер выделенной пам€ти
 	T* pMem; // Ц указатель на пам€ть, выделенную дл€ кольцевого буфера
-	int cnt; // - (count) количество запомненных в очереди значений
+	int cnt; // - (count) количество заполненных в очереди значений
 
 public:
-	Queue() {
+	MyQueue() {
 		begin = 0;
 		end = 0;
 		size = 0;
 		cnt = 0;
+		MaxSize = 0;
 		pMem = new T[size];
 	}
 
-	~Queue() {
+	~MyQueue() {
 		delete[] pMem;
 	}
 
-	Queue(size_t s) {
+	MyQueue(size_t s) {
 		if (s < MinQueueSize || s > MaxQueueSize)
 			throw "Ќеправильный размер очереди";
 		size = s;
@@ -38,6 +40,10 @@ public:
 	
 	size_t GetSize() {
 		return cnt;
+	}
+
+	int GetMaxSize() {
+		return MaxSize;
 	}
 
 	bool IsEmpty() { //- проверить очередь на пустоту

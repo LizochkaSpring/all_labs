@@ -54,3 +54,4 @@ add_subdirectory(queuetest)
 
 
 add_subdirectory(Graph)
+add_subdirectory(Gpaf)

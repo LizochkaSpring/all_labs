@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	Queue<int> a(3);
+	MyQueue<int> a(3);
 	a.Push(1);
 	a.Push(2);
 	a.Push(3);

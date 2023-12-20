@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queuelib/cmake_install.cmake")
   include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queuetest/cmake_install.cmake")
   include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/cmake_install.cmake")
+  include("C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Gpaf/cmake_install.cmake")
 
 endif()
 

@@ -11,3 +11,4 @@ C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queue/CMakeFiles/queue.dir
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queuelib/CMakeFiles/queuelib.dir
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/queuetest/CMakeFiles/queuetest.dir
 C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Graph/CMakeFiles/Graph.dir
+C:/Users/Xaker/source/repos/vse_labs/all_labs/build/Gpaf/CMakeFiles/Gpaf.dir
